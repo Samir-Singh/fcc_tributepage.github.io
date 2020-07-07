@@ -1,0 +1,96 @@
+
+body{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+    
+}
+#main{
+	background-color: #efefef;
+	border-radius: 10px;
+	padding: 0px 15px 0px 15px;
+}
+#img-div{
+	background-color: white;
+	box-sizing: border-box;
+	padding-top: 20px;
+	border-radius: 10px;
+}
+img{
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+@media(max-width:1274px){
+	img{
+		width: 90% ;
+	}
+}
+@media(max-width: 764px){
+	img{
+		max-width: 650px;
+	}
+	.wikipedia{
+		font-size: 20px;
+	}
+}
+p{
+	font-size: 20px;
+}
+#img-caption{
+	margin-top: 20px;
+}
+
+ul{
+	text-align: left;
+	margin: 0 auto 50px auto;
+	max-width: 700px;
+}
+li{
+	margin: 16px auto;
+	font-size:  18px;
+	font-family: calibri;
+	margin-top: 40px;
+}
+#tribute-info{
+	align-items: center;
+}
+#headline{
+	font-size: 40px;
+}
+@media(max-width: 886px){
+	#headline{
+		font-size: 25px;
+	}
+}
+@media(max-width: 320px){
+	#headline{
+		font-size: 15px;
+	}
+	.wikipedia{
+		font-size: 14px;
+	}
+	img{
+		max-width: 250px;
+	}
+	#img-caption{
+		font-size: 12px;
+	}
+	#p2{
+		font-size: 1px;
+	}
+}
+blockquote {
+  font-style: italic;
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+#p2{
+	font-style: italic;
+	font-size: 17px;
+	font-weight: normal;
+}
+.wikipedia{
+	max-width: 700px;
+	margin: 0px auto 0px auto;
+}
